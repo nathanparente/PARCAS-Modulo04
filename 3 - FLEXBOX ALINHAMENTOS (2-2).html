@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> FLEXBOX INTRODUÇÃO E DIREÇÕES</title>
+        <link rel="stylesheet" href="2.1 - FLEXBOX ALINHAMENTOS (1-2).css"/>
+
+        <style type="text/css">
+            .container1 {
+                display: flex;
+                flex-direction: row;
+                height: 500px;
+                background-color: rgb(175, 175, 175);
+                margin: 5px;
+                justify-content:center;
+                align-items: center;
+            }
+
+            .container1 div {
+                width: 100px;
+                height: 100px;
+                background-color:blueviolet;
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+
+            .div10 {
+                order: 1;
+                align-self: flex-start;
+            }
+
+
+            .div14 {
+                order: 2;
+                align-self: flex-end;
+            }
+
+
+            .div9 {
+                order: -1;
+                align-self: flex-start;
+            }
+
+            .container2 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height: 500px;
+                background-color: rgb(175, 175, 175);
+                margin: 5px;
+                justify-content:center;
+                align-items: center;
+                align-content: flex-end;
+            }
+
+            .container2 div {
+                width: 100px;
+                height: 100px;
+                background-color:blueviolet;
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container1"> 
+            <div > 1 </div>
+            <div > 2 </div>
+            <div > 3 </div>
+            <div > 4 </div>
+            <div > 5 </div>
+            <div > 6 </div>
+            <div > 7 </div>
+            <div > 8 </div>
+            <div class="div9"> 9 </div>
+            <div class="div10" > 10 </div>
+            <div > 11 </div>
+            <div > 12 </div>
+            <div > 13 </div>
+            <div class="div14"> 14 </div>
+            <div > 15 </div>
+        </div>
+
+        <div class="container2"> 
+            <div > 1 </div>
+            <div > 2 </div>
+            <div > 3 </div>
+            <div > 4 </div>
+            <div > 5 </div>
+            <div > 6 </div>
+            <div > 7 </div>
+            <div > 8 </div>
+            <div > 9 </div>
+            <div > 10 </div>
+            <div > 11 </div>
+            <div > 12 </div>
+            <div > 13 </div>
+            <div > 14 </div>
+            <div > 15 </div>
+        </div>
+
+        
+      
+    </body>
+</html>

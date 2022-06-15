@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> FLEXBOX INTRODUÇÃO E DIREÇÕES</title>
+        <link rel="stylesheet" href="2.1 - FLEXBOX ALINHAMENTOS (1-2).css"/>
+
+        <style type="text/css">
+            .container1 {
+                display: flex;
+                flex-direction: row;
+                height: 400px;
+                background-color: rgb(175, 175, 175);
+                margin: 5px;
+                justify-content:flex-start;
+            }
+
+            .container2 {
+                display: flex;
+                flex-wrap: wrap;
+                height: 400px;
+                background-color: rgb(99, 99, 99);
+                margin: 5px;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+            }
+
+            .container3 {
+                display: flex;
+                flex-wrap: wrap;
+                height: 400px;
+                background-color: rgb(99, 99, 99);
+                margin: 5px;
+                justify-content:flex-end;
+                align-items: flex-end;
+                justify-content: space-between;
+            }
+
+            .container4 {
+                display: flex;
+                flex-direction: column;
+                height: 400px;
+                background-color: rgb(99, 99, 99);
+                margin: 5px;
+                align-items: flex-start;
+            }
+
+            .container5 {
+                display: flex;
+                flex-direction: column;
+                height: 400px;
+                background-color: rgb(99, 99, 99);
+                margin: 5px;
+                align-items:center;
+            }
+
+            .container6 {
+                display: flex;
+                flex-direction: column;
+                height: 400px;
+                background-color: rgb(99, 99, 99);
+                margin: 5px;
+                align-items:flex-end;
+            }
+
+            .div_group1 {
+                width: 100px;
+                height: 100px;
+                background-color:blueviolet;
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+
+            .div_group2 {
+                width: 100px;
+                height: 100px;
+                background-color:blueviolet;
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+
+            .div_group3 {
+                width: 100px;
+                height: 100px;
+                background-color:blueviolet;
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+
+            .div_group4 {
+                width: 100px;
+                height: 100px;
+                background-color:blueviolet;
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+
+            .div_group5 {
+                width: 100px;
+                height: 100px;
+                background-color:blueviolet;
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+
+            .div_group6 {
+                width: 100px;
+                height: 100px;
+                background-color:blueviolet;
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="container1"> 
+            <div class="div_group1"> 1 </div>
+            <div class="div_group1"> 2 </div>
+            <div class="div_group1"> 3 </div>
+        </div>
+
+        <div class="container2"> 
+            <div class="div_group2"> 1 </div>
+            <div class="div_group2"> 2 </div>
+            <div class="div_group2"> 3 </div>
+        </div>
+
+        <div class="container3"> 
+            <div class="div_group3"> 1 </div>
+            <div class="div_group3"> 2 </div>
+            <div class="div_group3"> 3 </div>
+        </div>
+
+        <div class="container4"> 
+            <div class="div_group4"> 1 </div>
+            <div class="div_group4"> 2 </div>
+            <div class="div_group4"> 3 </div>
+        </div>
+
+        <div class="container5"> 
+            <div class="div_group5"> 1 </div>
+            <div class="div_group5"> 2 </div>
+            <div class="div_group5"> 3 </div>
+        </div>
+
+        <div class="container6"> 
+            <div class="div_group6"> 1 </div>
+            <div class="div_group6"> 2 </div>
+            <div class="div_group6"> 3 </div>
+        </div>
+
+      
+    </body>
+</html>

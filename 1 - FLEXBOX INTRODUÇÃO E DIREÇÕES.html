@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> FLEXBOX INTRODUÇÃO E DIREÇÕES</title>
+        <link rel="stylesheet" href="1.1 - FLEXBOX INTRODUÇÃO E DIREÇÕES.css"/>
+
+        <style type="text/css">
+            .container {
+                display: flex;
+                flex-direction: row;
+                background-color: rgb(175, 175, 175);
+                margin: 10px;
+            }
+
+            .container2 {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(173, 173, 173);
+                margin: 10px;
+            }
+
+            .container div {
+                flex:1;
+                background-color: rgb(219, 219, 219);
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+            
+            .div3 {
+                flex:3;
+                background-color: rgb(219, 219, 219);
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+            
+            .container2 div {
+                background-color: rgb(219, 219, 219);
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container"> 
+            <div> 1 </div>
+            <div> 2 </div>
+            <div> 3 </div>
+
+        </div>
+
+        <div class="container2"> 
+            <div> 1 </div>
+            <div> 2 </div>
+            <div class="div3"> 3 </div>
+
+        </div>
+
+    </body>
+</html>
